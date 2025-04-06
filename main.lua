@@ -112,7 +112,7 @@ local tp = BackToLobbyTab:CreateButton({
 local tp = TeleportTab:CreateButton({
     Name = "2vs2 arena No3",
     Callback = function()
-    local Targe = CFrame.new(485.644653, -104.63678, -232)
+    local Targe = CFrame.new(485.203979, -101.511765, -23)
     local Posi = Targe.Position + Vector3.new(0, 50, 0)
         plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
     end,
@@ -120,7 +120,7 @@ local tp = TeleportTab:CreateButton({
 local tp = TeleportTab:CreateButton({
     Name = "2vs2 arena No4",
     Callback = function()
-    local Targe = CFrame.new(18.9934883, -104.636749, -23)
+    local Targe = CFrame.new(14.1964283, -101.511749, -23)
     local Posi = Targe.Position + Vector3.new(0, 50, 0)
         plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
     end,
